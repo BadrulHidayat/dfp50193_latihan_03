@@ -19,7 +19,33 @@
     echo "<h2>Hello $name </h2>"; //output
 
     $umur = 20;
-    $nokp = '011016090025'
+    $nokp = '011016090025';
+
+    $x = 20;
+    $x *= 10;
+
+    echo $x;
+
+    $y = 10;
+    echo ++$y;
+
+    $ibubapa = 'ibu'; //Ibu / bapa / kedua-duanya
+    $yatim = 500;
+    $piatu = 1000;
+    
+    if ($status == 'ibu' xor $ibubapa = 'bapa') {
+        echo 'Anak yatim , dapat $yatim';
+    }
  ?>
+
+ <p>
+     <?php
+     $bandar = 'Arau';
+     $baru = 'Bandar: ';
+     for ($x = 0; $x < strlen($bandar); $x++){
+         $baru .= $bandar[$x] . '-';
+     }
+     echo $baru;
+?>
 </body>
 </html>
